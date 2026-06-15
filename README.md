@@ -36,6 +36,16 @@ Pagine principali disponibili:
 - `/reconciliation`
 - `/simulation`
 
+Repository GitHub:
+- https://github.com/licchiu-dev/gestione-e-controllo
+
+Deploy automatico:
+- è incluso un workflow GitHub Actions in `.github/workflows/deploy-vercel.yml`
+- per usarlo imposta i seguenti secret su GitHub:
+  - `VERCEL_TOKEN`
+  - `VERCEL_ORG_ID`
+  - `VERCEL_PROJECT_ID`
+
 Per creare lo schema Supabase:
 1. Creare un progetto Supabase.
 2. Importare il file SQL `docs/schema.sql` nel database.
